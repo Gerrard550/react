@@ -1,5 +1,6 @@
 import "./App.css";
 import House from "./component/House";
+import Library from "./component/library/Library";
 import Nav from "./component/Nav";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Nav />
       <House />
+      <Library />
     </>
   );
 }

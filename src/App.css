@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: rgb(155, 235, 235);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  color: red;
+}
+
+.nav-bar ul {
+  background-color: bisque;
+  color: rgb(5, 70, 73);
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 3.5rem;
+}
+ul {
+  list-style: none;
+}
+
+.dept {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: green;
+  background-color: darkorange;
+}
