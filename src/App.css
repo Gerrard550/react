@@ -33,3 +33,19 @@ ul {
   color: green;
   background-color: hotpink;
 }
+
+.cliff {
+  color: black;
+  font-size: 18px;
+  background-color: burlywood;
+  margin: 400px 20;
+  border-radius: 12px;
+}
+
+.dress {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-basis: 20px;
+  margin: 3rem 2rem;
+}
