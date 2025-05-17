@@ -1,5 +1,6 @@
 import "./App.css";
 import Groups from "./component/Groups";
+import Hospital from "./component/Hospital";
 import House from "./component/House";
 import Library from "./component/library/Library";
 import Menu from "./component/Menu";
@@ -16,6 +17,7 @@ function App() {
 
       <Menu />
       <Professions />
+      <Hospital />
     </>
   );
 }

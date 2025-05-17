@@ -119,7 +119,7 @@ ul {
 .dishes li {
   font-size: 0.95rem;
   color: #2c3e50;
-/* }
+}
 
 .employ {
   display: flex;
@@ -127,12 +127,12 @@ ul {
   justify-content: center;
   gap: 2rem;
   padding: 2rem;
-  background-color: #3e4143;
+  background-color: cornflowerblue;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .office {
-  background-color: rgb(245, 145, 127);
+  background-color: rgb(21, 114, 88);
   border: 1px solid #ddd;
   border-radius: 12px;
   padding: 1.5rem;
@@ -142,30 +142,31 @@ ul {
   cursor: n;
 }
 
-.dishes:hover {
+.office:hover {
   transform: translateY(-5px);
 }
 
-.dishes h1 {
+.office h1 {
   font-size: 1.5rem;
-  color: #c0392b;
+  color: purple;
   margin-bottom: 0.5rem;
 }
 
-.dishes h3 {
+.office h3 {
   font-size: 1.1rem;
-  color: #34495e;
+  color: #d8ba23;
   margin-top: 1rem;
   margin-bottom: 0.3rem;
 }
 
-.dishes ul {
+.office ul {
   padding-left: 1.2rem;
   margin: 0;
   list-style-type: disc;
 }
 
-.dishes li {
+.office li {
   font-size: 0.95rem;
-  color: #2c3e50;
-} */
+  color: #051524;
+  font-weight: bold;
+}

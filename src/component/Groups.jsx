@@ -47,8 +47,12 @@ const GroupsData = [
 ];
 
 const Groups = () => {
+  const handleClick = () => {
+    console.log("I have been clicked ");
+  };
   return (
     <div className="cliff">
+      <button onClick={handleClick}>CLICK ME</button>
       {GroupsData.map((model) => {
         return <Models key={model.id} {...model} />;
       })}
@@ -63,6 +67,7 @@ const Models = ({ age, race, height, country }) => {
       <h3> {race} </h3>
       <h2> {height} </h2>
       <h1> {country} </h1>
+      <button>Delete person</button>
     </div>
   );
 };

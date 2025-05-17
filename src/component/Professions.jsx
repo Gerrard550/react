@@ -64,24 +64,26 @@ const ProfessionData = [
 ];
 
 const Professions = () => {
-  <div className="employ">
-    {ProfessionData.map((job) => {
-      return <Experts key={job.id} {...job} />;
-    })}
-  </div>;
+  return (
+    <div className="employ">
+      {ProfessionData.map((job) => {
+        return <Experts key={job.id} {...job} />;
+      })}
+    </div>
+  );
 };
 
 const Experts = ({ profession, qualifications, ageRange }) => {
   return (
     <div className="office">
       <h1>{profession}</h1>
-      <h2>Qualification:</h2>
+      <h3>Qualification:</h3>
       <ul>
         {qualifications.map((qualify, index) => (
           <li key={index}> {qualify}</li>
         ))}
       </ul>
-      <h4> {ageRange} </h4>
+      <h2> {ageRange} </h2>
     </div>
   );
 };
